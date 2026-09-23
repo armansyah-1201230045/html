@@ -1,10 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
   <head>
-    <title>Tugas 1 Html</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV. Arya Pramana | Data Trucking</title>
+
+        <style>
+        .stats {
+            display: flex;
+            gap: 16px;
+        }
+
+        .stat {
+            background: white;
+            border: 1px solid rgb(231, 235, 241);
+            border-radius: 11px;
+            padding: 16px;
+            flex: 1;
+        }
+    </style>
   </head>
 
   <body>
-    <h1>Selamat datang</h1>
+    <header>
+      <h1>KopraTrans</h1>
+      <p>Sistem Informasi Trucking CV. Arya Pramana</p>
+
+      <nav aria-label="Navigasi utama">
+        <a href="#Dashboard">#Dashboard</a>
+        <a href="#Tambah Order">Tambah order</a>
+        <a href="#Data order">Data Order</a>|
+      </nav>
+    </header>
+
+    <main>
+      <section id="Dashboard">
+        <h2>Dashboard Status Data Order</h2>
+
+        <div class="stats">
+          <div class="stat">
+            <span>Order Aktif</span>
+            <strong>20</strong>
+          </div>
+
+          <div class="stat">
+            <span>Order Dalam Perjalanan</span>
+            <strong>17</strong>
+          </div>
+
+          <div class="stat">
+            <span>Selesai Bongkar</span>
+            <strong>3</strong>
+          </div>
+        </div>
+      </section>
+    </main>
+
   </body>
 </html>
